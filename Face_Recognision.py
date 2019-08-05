@@ -82,6 +82,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
-# Release handle to the Webcam
+#Release handle to the Webcam
 video_capture.release()
 cv2.destroyAllWindows()
