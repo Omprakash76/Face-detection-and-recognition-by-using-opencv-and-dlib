@@ -81,6 +81,7 @@ while True:
     # Hit 'q' on the keyboard to quit!
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
+#
 
 #Release handle to the Webcam
 video_capture.release()
